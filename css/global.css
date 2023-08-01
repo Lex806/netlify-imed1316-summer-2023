@@ -1,0 +1,24 @@
+/*colors*/
+/* 60% of - #4DD0FA Dominant */
+/* 30% of - #FDFE47 Secondary */
+/* 10% of - #f8f9fa Accent */
+
+:root {
+  --dominantColor: #4dd0fa; /* var(--dominantColor) !important; */
+  --secondaryColor: #fdfe47; /* var(--secondaryColor) !important; */
+  --accentColor: #808080; /* var(--accentColor) !important; */
+
+  /*box shadow*/
+  /*cssmatic*/
+  /*shadows.brumm.af*/
+  /* vertical, horizontal, blur, spread, color+opacity */
+  --boxShadow: 0 0 20px 0 rgba(0, 0, 0, 0.35); /* var(--boxShadow) !important; */
+}
+
+.sidebar-map {
+  position: center;
+  height: 250px;
+  width: 250px;
+  padding-left: 50px;
+  width: auto;
+}

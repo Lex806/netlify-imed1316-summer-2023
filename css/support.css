@@ -1,0 +1,51 @@
+@import "global.css";
+@import "main.css";
+
+.web-form {
+  width: 75%;
+  position: relative;
+  margin: auto;
+  background-color: #fffffd;
+  padding: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.web-form div {
+  margin-top: 10px;
+}
+
+#age {
+  width: 100px;
+}
+
+#date {
+  width: 150px;
+}
+
+#other {
+  margin-top: 5px;
+  display: none;
+}
+
+.radio,
+.checkbox {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+#questions-concerns {
+  width: 70%;
+  height: 150px;
+}
+
+.submit {
+  border-color: var(--dominantColor) !important;
+  background-color: var(--dominantColor) !important;
+  color: white;
+}
+
+.submit:hover {
+  background-color: white;
+  color: var(--dominantColor) !important;
+}

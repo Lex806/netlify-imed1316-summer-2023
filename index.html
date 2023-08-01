@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Beachside</title>
+
+    <!-- Bootstrap CDN CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Font CDN CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Google Icon CDN CSS -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <!-- Font Awesome CDN CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- FancyApp CDN CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!-- AOS CDN CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Begin Offcanvas -->
+
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header">
+          <img src="images/sidebar-map.jpeg" alt="map" class="sidebar-map" />
+          <br />
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            With our pinpoint delivery we can service to any specific location on the beach!
+          </div>
+        </div>
+      </div>
+      <!-- End Offcanvas-->
+
+      <!-- Begin Google Icons -->
+      <div class="container text-center top-logo">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <span class="material-symbols-outlined">
+              fastfood
+            </span>
+            <span class="material-symbols-outlined">
+              <a
+                data-bs-toggle="offcanvas"
+                href="#offcanvasExample"
+                role="button"
+                aria-controls="offcanvasExample"
+              >
+                menu
+              </a>
+            </span>
+          </div>
+          <div class="col-12 col-md-6">
+            <span id="my-google-font">Beachside</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Icons Ends -->
+
+      <!-- Top Navbar Begins -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <!--  <a class="navbar-brand" href="#">Navbar</a> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="https://hqcd26.csb.app/index.html"
+                  >Home</a
+                >
+                <li class="nav-item">
+                    <a class="nav-link" href="https://hqcd26.csb.app/order.html">Order</a>
+                  </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hqcd26.csb.app//beaches.html"
+                  >Locations</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hqcd26.csb.app/driver.html">Become a Driver</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hqcd26.csb.app/gallery.html">Reviews</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Support
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="https://hqcd26.csb.app/support.html">Phone</a></li>
+                  <li><a class="dropdown-item" href="https://hqcd26.csb.app/support.html">Email</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Live Chat</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Top Navbar Ends -->
+    </header>
+    <main>
+      <!-- Carousel Begins -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/images/carousel/carousel-1.jpeg"
+              class="d-block w-100"
+              alt="placeholder"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Eats on the beach!</h5>
+              <p>
+                Enjoy all your favorite nearby foods from the comfort of your chair!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/carousel/carousel-2.jpeg"
+              class="d-block w-100"
+              alt="placeholder"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Reliability</h5>
+              <p>
+                Eating is a lot easier and more fun when you do not have to leave the beautiful views!
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/images/carousel/carousel-3.jpeg"
+              class="d-block w-100"
+              alt="placeholder"
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Available Positions </h5>
+              <p>
+                Beachside is hiring 24/7 so work is openly available to all!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel Ends -->
+
+      <!-- Font Awesome Icons -->
+      <div class="container-fluid text-center fa-row">
+        <div class="row">
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">
+              <i class="fa-solid fa-umbrella-beach fa-row-icon"></i>
+              <br />About</a
+            >
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">
+              <i class="fa-solid fa-utensils fa-row-icon"></i>
+              <br />Order</a
+            >
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">
+              <i class="fa-solid fa-location-dot fa-row-icon"></i>
+              <br />
+              Available Locations</a
+            >
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">
+              <i class="fa-solid fa-cart-shopping fa-row-icon"></i>
+              <br />Cart</a
+            >
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">
+              <i class="fa-solid fa-truck fa-row-icon"></i>
+              <br />Sign Up</a
+            >
+          </div>
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">
+              <i class="fa-solid fa-question fa-row-icon"></i>
+              <br />FAQ/Support</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Begin first paragraph section -->
+      <div class="container first-paragraph-div">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="/images/squares-headshots/cone.jpeg"
+              alt="placeholder"
+              class="img-responsive first-paragraph-img"
+            />
+            <h2>Why Beachside?</h2>
+            <p>
+                If you're looking for a food delivery service that stands out from the rest, <i>Beachside</i> is the clear choice. With its exceptional commitment to customer satisfaction, you can count on receiving top-notch service and timely deliveries right to your specific sandy location. <i>Beachside</i> boasts an extensive and diverse menu, catering to all tastes and dietary preferences, ensuring there's something for everyone. Their innovative tracking system allows you to monitor your order in real-time, providing peace of mind and eliminating any uncertainties. What sets them apart is their dedication to using high-quality, fresh ingredients, ensuring that every meal is a delightful experience. Whether you're craving comfort food or seeking healthy options, <i>Beachside</i> goes the extra mile to exceed your expectations. Embrace convenience without compromising on taste and choose <i>Beachside</i> for an unparalleled food delivery experience.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- End first paragraph section -->
+
+      <!-- Begin Isotope and FancyApp-->
+      <div class="container isotope-filter">
+        <h2>Locations</h2>
+
+        <!-- begin filter buttons -->
+        <div class="button-group filters-button-group">
+          <button
+            class="button is-checked btn-isotope btn btn-success"
+            data-filter="*"
+          >
+            Show All
+          </button>
+          <button
+            class="button is-checked btn-isotope btn btn-primary"
+            data-filter=".florida"
+          >
+            Florida
+          </button>
+          <button
+            class="button is-checked btn-isotope btn btn-primary"
+            data-filter=".texas"
+          >
+            Texas
+          </button>
+          <button
+            class="button is-checked btn-isotope btn btn-primary"
+            data-filter=".california"
+          >
+            California
+          </button>
+        </div>
+        <!-- end filter buttons-->
+
+        <div class="row">
+          <!-- Grid begins -->
+          <div class="grid">
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item florida" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/miami.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Miami Beach</h5>
+                  <p class="card-text">
+                    Miami Beach is a vibrant and iconic coastal city in Florida, known for its stunning beaches, lively nightlife, and art-deco architecture.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item florida" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/keys.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Florida Keys</h5>
+                  <p class="card-text">
+                    The Florida Keys are a captivating archipelago of tropical islands, renowned for their crystal-clear waters, abundant marine life, and laid-back atmosphere.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item florida" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/panama.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Panama City Beach</h5>
+                  <p class="card-text">
+                    Panama City Beach is a captivating Gulf Coast destination in Florida, celebrated for its sugar-white sandy beaches, emerald-green waters, and an array of water sports and family-friendly attractions.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item texas" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/galveston.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Galveston</h5>
+                  <p class="card-text">
+                    Galveston is a charming coastal city in Texas, offering visitors a rich history, vibrant cultural scene, and a beautiful stretch of sandy beaches along the Gulf of Mexico.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item texas" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/padre.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">South Padre</h5>
+                  <p class="card-text">
+                    South Padre Island is a popular resort town in Texas, renowned for its pristine beaches, warm Gulf waters, and a plethora of outdoor activities, making it an ideal destination for beach lovers and thrill-seekers alike.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item california" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/santamonica.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Santa Monica</h5>
+                  <p class="card-text">
+                    Santa Monica Beach is a picturesque Southern California paradise, famous for its iconic pier, palm-lined shores, and vibrant coastal atmosphere, attracting locals and tourists alike.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item california" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/longbeach.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Long Beach</h5>
+                  <p class="card-text">
+                    Long Beach is a dynamic coastal city in California, known for its beautiful beaches, bustling waterfront, and diverse cultural offerings, making it a captivating destination for both residents and visitors.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+
+            <div
+              class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+            >
+              <!-- card -->
+              <div class="card element-item california" style="width: 18rem;">
+                <a
+                  href="https://dummyimage.com/200x200/0db591/fff.jpg"
+                  data-fancybox="gallery"
+                  data-caption="Single image"
+                >
+                  <img
+                    src="/images/locations/malibu.jpeg"
+                    class="card-img-top"
+                    alt="placeholder"
+                  />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">Malibu</h5>
+                  <p class="card-text">
+                    Malibu Beach is an exclusive and breathtaking stretch of coastline in California, renowned for its stunning ocean views, celebrity residences, and world-class surfing spots.
+                  </p>
+                  <a href="https://hqcd26.csb.app//beaches.html" class="btn btn-primary">Learn More</a>
+                </div>
+              </div>
+              <!-- card -->
+            </div>
+          </div>
+          <!-- End grid -->
+        </div>
+      </div>
+      <!-- End Isotope and FancyApp-->
+
+      <!-- Begin second paragraph section -->
+      <div class="container second-paragraph-div">
+        <div class="row">
+          <div class="col-12">
+            <img
+              src="/images/squares-headshots/picnic.jpeg"
+              alt="placeholder"
+              class="img-responsive second-paragraph-img"
+            />
+            <h2>Eats on the beach!</h2>
+            <p>
+                The natural beauty of the beach with its sandy shores, crashing waves, and stunning sunsets provides a picturesque backdrop for your meal. The tranquil sound of the ocean and the refreshing sea breeze create a relaxing atmosphere that enhances your dining experience. Being near the water has been scientifically proven to reduce stress and promote relaxation. Enjoying a meal at the beach allows you to unwind and escape the hustle and bustle of everyday life, contributing to a more enjoyable and satisfying dining experience.
+            </p>
+            <p>
+                Eating at the beach often involves picnicking, which can be a delightful and bonding experience with family and friends. Sharing a meal outdoors, with everyone contributing to the picnic spread, fosters a sense of togetherness and creates lasting memories.
+            </p>
+            
+            
+          </div>
+        </div>
+      </div>
+      <!-- End second paragraph section -->
+
+      <!-- Begin headshot section -->
+      <div class="container headshot text-center">
+        <div class="row">
+          <div
+            class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          >
+            <img
+              src="/images/squares-headshots/headshot1.jpeg"
+              alt="placeholder"
+              class="cropped"
+              data-aos="zoom-in"
+            />
+            <br />
+            <blockquote>
+              This service makes driving fun and worth your time by making money!
+              <cite>Evan Adams, Driver</cite>
+            </blockquote>
+          </div>
+          <div
+            class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          >
+            <img
+              src="/images/squares-headshots/headshot2.jpeg"
+              alt="placeholder"
+              class="cropped"
+              data-aos="zoom-in"
+            />
+            <br />
+            <blockquote>
+              I have been deliverying for 6 months now and I have been able to quit my job and do Beachside full time!
+              <cite>Ronda Smith, Driver</cite>
+            </blockquote>
+          </div>
+          <div
+            class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 col-xxl-4"
+          >
+            <img
+              src="/images/squares-headshots/headshot3.jpeg"
+              alt="placeholder"
+              class="cropped"
+              data-aos="zoom-in"
+            />
+            <br />
+            <blockquote>
+              I would never choose another job than delivering for Beachside
+              <cite>Brad Carlton</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <!-- End headshot section -->
+    </main>
+
+    <footer>
+      <!-- Begin footer -->
+      <div class="container-fluid text-center footer-row">
+        <div class="row">
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#"> Delivery Options</a>
+          </div>
+
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">About Us</a>
+          </div>
+
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">Participating Locations</a>
+          </div>
+
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#"> Help</a>
+          </div>
+
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#"> Available Beaches</a>
+          </div>
+
+          <div
+            class="col-6 col-xs-6 col-sm-6 col-md-4 col-lg-2 col-xl-2 col-xxl-2"
+          >
+            <a href="#">Become a Driver </a>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-12">
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="fa-brands fa-instagram fa-social-media"></i>
+            </a>
+
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="fa-brands fa-twitter fa-social-media"></i>
+            </a>
+
+            <a href="https://www.tiktok.com" target="_blank">
+              <i class="fa-brands fa-tiktok fa-social-media"></i>
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fa-brands fa-facebook fa-social-media"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- End footer -->
+    </footer>
+
+    <!-- Begin JS Section -->
+    <section>
+      <!-- jQuery CDN -->
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.js"
+        integrity="sha512-8Z5++K1rB3U+USaLKG6oO8uWWBhdYsM3hmdirnOEWp8h2B1aOikj5zBzlXs8QOrvY9OxEnD2QDkbSKKpfqcIWw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+
+      <!-- Bootstrap CDN JS -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+      ></script>
+
+      <!-- FancyApp CDN JS -->
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+      <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+          //
+        });
+      </script>
+
+      <!-- AOS JS CDN -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+      <!-- Isotope JS CDN-->
+      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+      <!-- Local JavaScript-->
+      <script src="/js/scripts.js"></script>
+    </section>
+    <!-- End JS Section-->
+  </body>
+</html>

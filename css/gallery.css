@@ -1,0 +1,22 @@
+@import "global.css";
+@import "main.css";
+
+#imed1316-gallery {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+
+.first-paragraph-div {
+  box-shadow: var(--boxShadow) !important;
+  position: relative;
+  background-color: #fffffd;
+  color: var(--accentColor) !important;
+  font-family: "Bacasime Antique", serif;
+  font-size: 24px;
+  padding: 20px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
